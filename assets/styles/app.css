@@ -34,5 +34,8 @@ Default: 1
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
+body {
+  background-color: rgb(59, 59, 59);
+}
 
 /*# sourceMappingURL=app.css.map */
