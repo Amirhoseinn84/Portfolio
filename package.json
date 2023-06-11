@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass assets/styles/main.scss assets/styles/app.css -w"
+  },
+  "author": "Amirhosein",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.3"
+  }
+}
