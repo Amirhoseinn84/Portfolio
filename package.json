@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass assets/styles/main.scss assets/styles/app.css -w"
+    "compile:sass": "sass assets/styles/sass/main.scss assets/styles/app.css -w"
   },
   "author": "Amirhosein",
   "license": "ISC",

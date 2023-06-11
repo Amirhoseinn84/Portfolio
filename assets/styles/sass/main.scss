@@ -26,18 +26,31 @@ Default: 1
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilties';
+
+@import 'components/button';
+
+@import 'layouts/header';
+
+@import 'pages/home';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ------------------------ */
-/* GENERAL STYLES */
-/* ------------------------ */
-
-$primary: rgb(59, 59, 59);
-
 body {
   background-color: $primary;
 }
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
