@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.63.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
